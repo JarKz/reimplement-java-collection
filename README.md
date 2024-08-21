@@ -24,4 +24,4 @@ Or on Windows:
 ./gradlew.bat run
 ```
 
-The benchmarking may consume a lot of memory because uses $Integer.MAX_VALUE / 16 = 134217727$ values in single `Integer[]` array for all benches.
+The benchmarking may consume a lot of memory because uses $\lfloor \frac{Integer.MAX\\_VALUE}{16} \rfloor = 134217727$ values in single `Integer[]` array for all benches.
